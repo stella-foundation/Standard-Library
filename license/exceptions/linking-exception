@@ -1,0 +1,133 @@
+                        STELLA LIBRARY LINKING EXCEPTION
+             Additional Permission under GNU GPL version 3 section 7
+
+Copyright (C) Tempest Foundation
+
+1. Purpose and Authority
+
+   This document grants an Additional Permission under Section 7 of the GNU
+   General Public License, version 3 or (at your option) any later version
+   ("GPL"), as published by the Free Software Foundation. It applies to the
+   Stella library ("the Library") wherever this Exception is explicitly
+   referenced in the Library's licensing notices.
+
+   Terms defined in the GPL have the same meaning when used in this
+   Exception unless otherwise defined below.
+
+2. Definitions
+
+   "The Library" means the Stella library covered by this Exception,
+   including its source files, interface/header files, modules, compiled
+   object files, static archives, shared/dynamic libraries, and any
+   modifications or derivative works of the Library itself.
+
+   "Independent Work" means any software work (such as an application,
+   library, firmware, or module) that is not a derivative work of the
+   Library's implementation and is capable of existing independently of the
+   Library's internal implementation, even if it depends on the Library's
+   Public Interfaces to compile or execute.
+
+   "Combined Work" means a work produced by linking, combining, or
+   incorporating the Library (in whole or in part) with one or more
+   Independent Works.
+
+   "Public Interface" means the exported symbols, type declarations,
+   function signatures, constants, macros, inline functions, and
+   generic/template definitions provided by the Library for use by callers.
+
+3. Grant of Additional Permission (Static and Dynamic Linking)
+
+   As a special exception to the GPL, Tempest Foundation grants you
+   permission to link, combine, or incorporate the Library with an
+   Independent Work to produce a Combined Work, and to copy, distribute,
+   and convey that Combined Work under license terms of your choice
+   (including proprietary or non-GPL-compatible terms), without causing the
+   Independent Work to be covered by the copyleft obligations of the GPL.
+
+   This permission explicitly covers:
+
+   (a) Static Linking: Combining the Independent Work with static archives,
+       object files, or bitcode/IR of the Library, including when processed
+       through Link-Time Optimization (LTO), whole-program optimization,
+       dead-code elimination, or symbol stripping.
+
+   (b) Dynamic Linking: Linking the Independent Work against shared or
+       dynamic builds of the Library (e.g., .so, .dylib, .dll), loading the
+       Library dynamically at runtime (e.g., via dlopen), or bundling a
+       shared build of the Library alongside the Independent Work.
+
+   (c) Interface Instantiation: Compiling or expanding Public Interface
+       elements of the Library—such as macros, constants, inline functions,
+       templates, or generics—into the object code of the Independent Work.
+
+4. Conditions and Anti-Circumvention Boundaries
+
+   The Additional Permission in Section 3 applies ONLY if ALL of the
+   following conditions are satisfied. If any condition is not met, this
+   Exception does not apply, and the Combined Work may only be distributed
+   in full compliance with the GPL:
+
+   (a) Modifications to the Library Remain Under the GPL:
+       Any modification, adaptation, extension, bug fix, or derivative work
+       of the Library itself—including any code added to the Library's
+       source files or compiled into the Library—remains strictly subject
+       to the GPL (with or without this Exception, as elected under
+       Section 5). This Exception never permits you to license or
+       distribute modified versions of the Library itself under non-GPL
+       terms.
+
+   (b) No Circumvention or Disguised Derivative Works:
+       You may not evade the copyleft of the Library by extracting, copying,
+       translating, or repackaging non-interface implementation code from
+       the Library into an Independent Work, or by placing modifications to
+       the Library's internal behavior into an Independent Work so as to
+       disguise a derivative work of the Library as an Independent Work.
+       Normal use and instantiation of the Library's Public Interfaces is
+       permitted; copying substantial non-interface implementation code
+       into an Independent Work is not covered by this Exception.
+
+   (c) Required Notices and License Texts:
+       Whenever you convey a Combined Work, you must give prominent notice
+       with each copy that the Library is used in it and that the Library is
+       covered by the GPL with this Exception. You must also include or
+       make available the full text of the GPL and this Exception.
+
+   (d) Corresponding Source for the Library:
+       Whenever you convey a Combined Work in object, binary, or executable
+       form (whether statically or dynamically linked), you must provide—or
+       make available in the manner specified by Section 6 of the GPL—the
+       Corresponding Source for the Library portion of the Combined Work
+       (including any modifications you made to the Library, and the
+       scripts or interface definitions needed to build the Library
+       itself). You are not required to provide the source code of the
+       Independent Work.
+
+   (e) No Additional Restrictions on the Library:
+       You may not impose any further restrictions on recipients' exercise
+       of the rights granted by the GPL with respect to the Library itself
+       (including any modifications to the Library), except to the extent
+       this Exception permits alternative licensing for the Independent Work
+       within a Combined Work.
+
+5. Modifying or Removing this Exception
+
+   If you modify the Library, you may extend this Exception to your version
+   of the Library, but you are not obligated to do so. If you do not wish
+   to do so, delete this Exception statement from your version before
+   distributing it.
+
+   Pursuant to Section 7 of the GPL, if another party removes this
+   Additional Permission from a copy of the Library they distribute, that
+   removal applies only to their copy and works derived from it; it does
+   not affect the availability of this Exception for copies obtained from
+   Tempest Foundation or from other distributors who retain this Exception.
+
+6. No Warranty, Liability, or Trademark Grant
+
+   Nothing in this Exception modifies the Disclaimer of Warranty or
+   Limitation of Liability in Sections 15 through 17 of the GPL.
+
+   This Exception does not grant any right to use the trademarks, trade
+   names, service marks, or logos of Tempest Foundation or Stella, except
+   as required for reasonable and customary use in describing the origin
+   of the Library and reproducing required copyright and license notices.
